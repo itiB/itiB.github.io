@@ -9,12 +9,13 @@ on:
 jobs:
   release:
     runs-on: ubuntu-20.04
-    if: github.event.pull_request.merged == true
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
