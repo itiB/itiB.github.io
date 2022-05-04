@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Top } from './top';
+import { Content} from './content';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Top />
+    <Content />
   </React.StrictMode>,
   document.getElementById('root')
 );
