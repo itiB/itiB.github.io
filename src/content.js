@@ -4,14 +4,14 @@ export const Content = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
       <div className="grid gap-12 row-gap-8">
-        <div className="max-w-xl mb-6">
+        <div className="max-w-xl mb-6" id="about">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             About
           </h2>
           <div className="text-base text-gray-700 md:text-lg">
             <ul className="prose prose-sm list-disc list-inside">
-              <li><itab>Name</itab>: いちび</li>
-              <li><itab>Job</itab>: SRE Engineer</li>
+              <li><span>Name</span>: いちび</li>
+              <li><span>Job</span>: SRE Engineer</li>
               <li>Like
                 <ul className="list-disc list-inside">
                   <li>Windows, Python🐍, Crawler, Kubernetes</li>
@@ -26,7 +26,7 @@ export const Content = () => {
             </ul>
           </div>
         </div>
-        <div className="max-w-xl mb-6">
+        <div className="max-w-xl mb-6" id="activity">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             Activity
           </h2>
@@ -46,7 +46,7 @@ export const Content = () => {
             </ul>
           </div>
         </div>
-        <div className="max-w-xl mb-6">
+        <div className="max-w-xl mb-6" id="contact">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             Contact
           </h2>

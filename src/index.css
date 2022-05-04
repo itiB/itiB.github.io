@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-itab {
+span {
   display: inline-block;
   width: 5em;
 }
