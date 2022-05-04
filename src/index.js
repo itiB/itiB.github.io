@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Namecard from './Namecard';
+import { Top } from './top';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Namecard />
+    <Top />
   </React.StrictMode>,
   document.getElementById('root')
 );
