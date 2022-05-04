@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Namecard from './Namecard';
+import { Nav } from './Nav';
+import { Top } from './top';
+import { Content} from './content';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Namecard />
+    <Nav />
+    <Top />
+    <Content />
   </React.StrictMode>,
   document.getElementById('root')
 );
