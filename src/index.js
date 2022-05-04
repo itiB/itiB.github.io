@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Nav } from './Nav';
-import { Top } from './top';
-import { Content} from './content';
+import { Top } from './Top';
+import { Content} from './Content';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
