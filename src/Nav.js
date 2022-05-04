@@ -40,6 +40,16 @@ export const Nav = () => {
             </li>
             <li>
               <a
+                href="#links"
+                aria-label="Links"
+                title="Links"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Links
+              </a>
+            </li>
+            <li>
+              <a
                 href="#contact"
                 aria-label="Contact"
                 title="Contact"
@@ -123,6 +133,16 @@ export const Nav = () => {
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Activity
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#links"
+                          aria-label="Links"
+                          title="Links"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Links
                         </a>
                       </li>
                       <li>
