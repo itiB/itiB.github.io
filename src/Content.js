@@ -46,6 +46,25 @@ export const Content = () => {
             </ul>
           </div>
         </div>
+        <div className="max-w-xl mb-6" id="links">
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            Links
+          </h2>
+          <div className="text-base text-gray-700 md:text-lg">
+            <ul className="prose prose-sm list-disc list-inside">
+              <li><span>Twitter</span>: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/itiB_S144">
+                https://twitter.com/itiB_S144</a></li>
+              <li><span>GitHub</span>: <a target="_blank" rel="noopener noreferrer" href="https://github.com/itiB">
+                https://github.com/itiB</a></li>
+              <li><span>blog</span>: <a target="_blank" rel="noopener noreferrer" href="https://itib.hatenablog.com/">
+                https://itib.hatenablog.com/</a></li>
+                <li><span>VRChat</span>: <a target="_blank" rel="noopener noreferrer" href="https://vrchat.com/home/user/usr_084a7349-e36f-464b-8638-8194fc43a721">
+                itib</a></li>
+              <li>ほしいものリスト : <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.jp/hz/wishlist/ls/3PVWQIDVDZWVW?ref_=wl_share">
+                https://www.amazon.jp/hz/wishlist/ls/3PVWQIDVDZWVW</a></li>
+            </ul>
+          </div>
+        </div>
         <div className="max-w-xl mb-6" id="contact">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             Contact

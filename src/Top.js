@@ -1,5 +1,7 @@
 import React from 'react';
 
+import itib from "./images/itib.jpg"
+
 // https://kitwind.io/products/kometa/components/contents
 // https://iconmonstr.com/
 export const Top = () => {
@@ -65,7 +67,7 @@ export const Top = () => {
         <div>
           <img
             className="object-cover w-40 h-40 mr-4 rounded-full shadow"
-            src="https://pbs.twimg.com/profile_images/1342789589069484032/YNuX39KE_400x400.jpg"
+            src={itib}
             alt=""
           />
         </div>
