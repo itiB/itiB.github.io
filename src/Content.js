@@ -38,8 +38,9 @@ export const Content = () => {
                   <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Yamato-Security/hayabusa">Hayabusa</a></li>
                 </ul>
               </li>
+              <li>2023 Google Cloud Certified - Professional Cloud Developer </li>
               <li>2022 AWS Certified Solutions Architect – Associate</li>
-              <li>2021 Professional Cloud Architect Google Cloud</li>
+              <li>2021 Google Cloud Certified - Professional Cloud Architect</li>
               <li>Codeblue 2018/2019 staff</li>
               <li>2019 安全確保支援士(セキュリティスペシャリスト) 秋 未登録</li>
               <li>2018 応用情報技術者試験 春</li>
