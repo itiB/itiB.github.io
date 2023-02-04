@@ -3,6 +3,7 @@
     "config:base"
   ],
   "labels": ["renovate"],
+  "automerge": true,
   "schedule": ["after 10pm and before 5am every weekend"],
   "timezone": "Asia/Tokyo"
 }
