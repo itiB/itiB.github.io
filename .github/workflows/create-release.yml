@@ -17,10 +17,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.x
+          ruby-version: '3.0'
+          bundler-cache: true
 
       - name: Create Release Pull Request
         env:
