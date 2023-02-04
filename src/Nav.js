@@ -13,9 +13,6 @@ export const Nav = () => {
             title="itib"
             className="inline-flex items-center"
           >
-            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-              itib.github.io
-            </span>
           </a>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
